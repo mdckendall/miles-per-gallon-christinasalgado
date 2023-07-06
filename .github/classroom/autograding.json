@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "",
+      "run": "python3 main.py",
+      "input": "100\r\n5",
+      "output": "20.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Calculation",
+      "setup": "",
+      "run": "python3 main.py",
+      "input": "10.0\r\n2.0",
+      "output": "5.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
